@@ -1,0 +1,58 @@
+.VocationalWork {
+    width: 100vw;
+    height: 100vh;
+    background: #aad7ff;
+
+    .yw-progress {
+        width: 100%;
+    }
+
+    .yw-content {
+        margin: auto;
+        width: 90%;
+        height: 560px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .VocationalWork {
+        .yw-progress {
+            height: 130px;
+        }
+    }
+}
+
+@media (max-width: 1800px) {
+    .VocationalWork {
+        .yw-progress {
+            height: 120px;
+        }
+    }
+}
+
+/* 按钮点击事件 */
+.btnActive {
+    user-select: none;
+    cursor: pointer;
+}
+
+.btnActive:active {
+    opacity: 0.6;
+}
+
+/* 滚动条样式 */
+.yjScroll::-webkit-scrollbar-thumb {
+    width: 10px;
+    background: #b6cdfe;
+    border-radius: 5px;
+}
+
+.yjScroll::-webkit-scrollbar-track {
+    background-color: #f5f6f7;
+    width: 10px;
+    border-radius: 5px;
+}
+
+.yjScroll::-webkit-scrollbar {
+    width: 10px;
+}

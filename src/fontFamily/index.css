@@ -1,0 +1,47 @@
+@font-face {
+     font-family: "阿里巴巴普惠体";
+     src: url("albbpht/albbpht.woff2") format("woff2"),
+          url("albbpht/albbpht.woff") format("woff");
+     font-stretch: "normal";
+     font-weight: 400;
+}
+
+@font-face {
+     font-family: "字魂粗";
+     src: url("zh/zhch.TTF") format("woff");
+     font-stretch: "normal";
+     font-weight: 400;
+}
+
+@font-face {
+     font-family: "字魂中";
+     src: url("zh/zhzh.TTF") format("woff2");
+     font-stretch: "normal";
+     font-weight: 400;
+}
+@font-face {
+     font-family: "苹方简M";
+     src: url("pingfang/PINGFANGSC-MEDIUM.OTF");
+ }
+ @font-face {
+     font-family: "苹方简R";
+     src: url("pingfang/PINGFANGSC-REGULAR.OTF");
+ }
+ @font-face {
+     font-family: "苹方简L";
+     src: url("pingfang/PINGFANGSC-LIGHT.OTF");
+ }
+ @font-face {
+     font-family: "追光";
+     src: url("zhuiguang/zgFont.OTF");
+ } 
+ @font-face {
+     font-family: "方正姚体";
+     src: url("fangzhengyaoti/FZYTK.TTF");
+ }
+ @font-face {
+     font-family: "青鸟";
+     src: url("qingniao/JZY.TTF");
+    
+     
+ }
